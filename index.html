@@ -1,11 +1,142 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Мій Перший Сайт</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Атлантида - Сервер Minecraft</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        /* * Це коментар у CSS. 
+         * Він пояснює, що робить код, але комп'ютер його ігнорує.
+         */
+
+        /* Загальні налаштування для всієї сторінки */
+        body {
+            background-color: #0a192f; /* Темно-синій, як глибини океану */
+            color: #cdd6f6; /* Світлий колір тексту */
+            font-family: 'Press Start 2P', cursive; /* Наш піксельний шрифт */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Головний контейнер (рамка) */
+        .container {
+            width: 100%;
+            max-width: 700px;
+            background-color: #1e293b; /* Ще один темний фон */
+            border: 3px solid #00bfff; /* Яскраво-блакитна рамка (Deep Sky Blue) */
+            padding: 25px;
+            text-align: center;
+            border-radius: 10px; /* Трохи заокруглені кути */
+            
+            /* Ефект "сяйва", наче скарб під водою */
+            box-shadow: 0 0 25px rgba(0, 191, 255, 0.6);
+        }
+
+        /* Наш головний заголовок */
+        h1 {
+            color: #00bfff; /* Такий самий колір, як у рамки */
+            text-shadow: 0 0 10px #00bfff; /* Додаємо тексту сяйва */
+        }
+
+        /* Стиль для IP-адреси */
+        .ip-address {
+            background-color: #333;
+            color: #f1fa8c; /* Світло-жовтий */
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            display: inline-block; /* Дозволяє застосувати padding */
+            margin-bottom: 25px;
+        }
+
+        /* Стиль для кнопки Discord */
+        .discord-btn {
+            background-color: #5865F2; /* Фірмовий колір Discord */
+            color: #ffffff;
+            padding: 12px 20px;
+            text-decoration: none; /* Прибираємо підкреслення у посилання */
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: background-color 0.3s ease; /* Плавна анімація */
+        }
+
+        .discord-btn:hover {
+            background-color: #4752c4; /* Трохи темніший при наведенні */
+        }
+
+        /* Секція з особливостями */
+        .features {
+            margin-top: 30px;
+            text-align: left; /* Вирівнюємо текст по лівому краю всередині */
+        }
+
+        .features h2 {
+            color: #ffffff;
+            text-align: center; /* Але заголовок по центру */
+        }
+
+        .features ul {
+            list-style-type: none; /* Прибираємо крапки-маркери */
+            padding: 0;
+        }
+
+        .features li {
+            background-color: rgba(0, 191, 255, 0.1); /* Прозорий синій фон */
+            border: 1px dashed #00bfff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        /* Маленький текст внизу */
+        footer {
+            margin-top: 20px;
+            font-size: 0.7em;
+            color: #888;
+        }
+
+    </style>
+    </head>
 <body>
-  <h1>Вітаю на моєму сайті!</h1>
-  <p>Це моя сторінка, розміщена на GitHub Pages.</p>
+    
+    <div class="container">
+        <header>
+            <h1>🌊 ATLANTIDA 🌊</h1>
+            <p>Твоя пригода у затонулому світі Minecraft!</p>
+        </header>
+
+        <section class="server-info">
+            <p>Підключайся до нас:</p>
+            <div class="ip-address">play.atlantida.fun</div>
+            
+            <p>Спілкуйся з нами:</p>
+            <a href="#" class="discord-btn">Приєднатися до Discord</a>
+        </section>
+
+        <section class="features">
+            <h2>Чому ми?</h2>
+            <ul>
+                <li>💎 Унікальні квести та боси</li>
+                <li>🏛️ Загублені підводні міста для дослідження</li>
+                <li>🛡️ Надійний захист та нуль лагів</li>
+                <li>👥 Дружня спільнота та активна адміністрація</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2025 Atlantida. Всі права (не) захищені :)</p>
+        </footer>
+    </div>
+
 </body>
 </html>
